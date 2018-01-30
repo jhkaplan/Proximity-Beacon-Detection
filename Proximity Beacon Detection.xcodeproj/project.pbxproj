@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		992D99E02020BD40003BA54D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D99DF2020BD40003BA54D /* AppDelegate.swift */; };
+		992D99E22020BD40003BA54D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D99E12020BD40003BA54D /* ViewController.swift */; };
+		992D99E52020BD40003BA54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992D99E32020BD40003BA54D /* Main.storyboard */; };
+		992D99E72020BD40003BA54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992D99E62020BD40003BA54D /* Assets.xcassets */; };
+		992D99EA2020BD40003BA54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992D99E82020BD40003BA54D /* LaunchScreen.storyboard */; };
+		992D99F52020BD40003BA54D /* Proximity_Beacon_DetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D99F42020BD40003BA54D /* Proximity_Beacon_DetectionTests.swift */; };
+		992D9A002020BD40003BA54D /* Proximity_Beacon_DetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D99FF2020BD40003BA54D /* Proximity_Beacon_DetectionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		992D99F12020BD40003BA54D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992D99D42020BD40003BA54D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992D99DB2020BD40003BA54D;
+			remoteInfo = "Proximity Beacon Detection";
+		};
+		992D99FC2020BD40003BA54D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992D99D42020BD40003BA54D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992D99DB2020BD40003BA54D;
+			remoteInfo = "Proximity Beacon Detection";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		992D99DC2020BD40003BA54D /* Proximity Beacon Detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proximity Beacon Detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		992D99DF2020BD40003BA54D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		992D99E12020BD40003BA54D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		992D99E42020BD40003BA54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		992D99E62020BD40003BA54D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		992D99E92020BD40003BA54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		992D99EB2020BD40003BA54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992D99F02020BD40003BA54D /* Proximity Beacon DetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proximity Beacon DetectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		992D99F42020BD40003BA54D /* Proximity_Beacon_DetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proximity_Beacon_DetectionTests.swift; sourceTree = "<group>"; };
+		992D99F62020BD40003BA54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992D99FB2020BD40003BA54D /* Proximity Beacon DetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proximity Beacon DetectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		992D99FF2020BD40003BA54D /* Proximity_Beacon_DetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proximity_Beacon_DetectionUITests.swift; sourceTree = "<group>"; };
+		992D9A012020BD40003BA54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		992D99D92020BD40003BA54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D99ED2020BD40003BA54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D99F82020BD40003BA54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		992D99D32020BD40003BA54D = {
+			isa = PBXGroup;
+			children = (
+				992D99DE2020BD40003BA54D /* Proximity Beacon Detection */,
+				992D99F32020BD40003BA54D /* Proximity Beacon DetectionTests */,
+				992D99FE2020BD40003BA54D /* Proximity Beacon DetectionUITests */,
+				992D99DD2020BD40003BA54D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		992D99DD2020BD40003BA54D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				992D99DC2020BD40003BA54D /* Proximity Beacon Detection.app */,
+				992D99F02020BD40003BA54D /* Proximity Beacon DetectionTests.xctest */,
+				992D99FB2020BD40003BA54D /* Proximity Beacon DetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992D99DE2020BD40003BA54D /* Proximity Beacon Detection */ = {
+			isa = PBXGroup;
+			children = (
+				992D99DF2020BD40003BA54D /* AppDelegate.swift */,
+				992D99E12020BD40003BA54D /* ViewController.swift */,
+				992D99E32020BD40003BA54D /* Main.storyboard */,
+				992D99E62020BD40003BA54D /* Assets.xcassets */,
+				992D99E82020BD40003BA54D /* LaunchScreen.storyboard */,
+				992D99EB2020BD40003BA54D /* Info.plist */,
+			);
+			path = "Proximity Beacon Detection";
+			sourceTree = "<group>";
+		};
+		992D99F32020BD40003BA54D /* Proximity Beacon DetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				992D99F42020BD40003BA54D /* Proximity_Beacon_DetectionTests.swift */,
+				992D99F62020BD40003BA54D /* Info.plist */,
+			);
+			path = "Proximity Beacon DetectionTests";
+			sourceTree = "<group>";
+		};
+		992D99FE2020BD40003BA54D /* Proximity Beacon DetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				992D99FF2020BD40003BA54D /* Proximity_Beacon_DetectionUITests.swift */,
+				992D9A012020BD40003BA54D /* Info.plist */,
+			);
+			path = "Proximity Beacon DetectionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		992D99DB2020BD40003BA54D /* Proximity Beacon Detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992D9A042020BD40003BA54D /* Build configuration list for PBXNativeTarget "Proximity Beacon Detection" */;
+			buildPhases = (
+				992D99D82020BD40003BA54D /* Sources */,
+				992D99D92020BD40003BA54D /* Frameworks */,
+				992D99DA2020BD40003BA54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proximity Beacon Detection";
+			productName = "Proximity Beacon Detection";
+			productReference = 992D99DC2020BD40003BA54D /* Proximity Beacon Detection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		992D99EF2020BD40003BA54D /* Proximity Beacon DetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992D9A072020BD40003BA54D /* Build configuration list for PBXNativeTarget "Proximity Beacon DetectionTests" */;
+			buildPhases = (
+				992D99EC2020BD40003BA54D /* Sources */,
+				992D99ED2020BD40003BA54D /* Frameworks */,
+				992D99EE2020BD40003BA54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				992D99F22020BD40003BA54D /* PBXTargetDependency */,
+			);
+			name = "Proximity Beacon DetectionTests";
+			productName = "Proximity Beacon DetectionTests";
+			productReference = 992D99F02020BD40003BA54D /* Proximity Beacon DetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		992D99FA2020BD40003BA54D /* Proximity Beacon DetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992D9A0A2020BD40003BA54D /* Build configuration list for PBXNativeTarget "Proximity Beacon DetectionUITests" */;
+			buildPhases = (
+				992D99F72020BD40003BA54D /* Sources */,
+				992D99F82020BD40003BA54D /* Frameworks */,
+				992D99F92020BD40003BA54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				992D99FD2020BD40003BA54D /* PBXTargetDependency */,
+			);
+			name = "Proximity Beacon DetectionUITests";
+			productName = "Proximity Beacon DetectionUITests";
+			productReference = 992D99FB2020BD40003BA54D /* Proximity Beacon DetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992D99D42020BD40003BA54D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Josh Kaplan";
+				TargetAttributes = {
+					992D99DB2020BD40003BA54D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					992D99EF2020BD40003BA54D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 992D99DB2020BD40003BA54D;
+					};
+					992D99FA2020BD40003BA54D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 992D99DB2020BD40003BA54D;
+					};
+				};
+			};
+			buildConfigurationList = 992D99D72020BD40003BA54D /* Build configuration list for PBXProject "Proximity Beacon Detection" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 992D99D32020BD40003BA54D;
+			productRefGroup = 992D99DD2020BD40003BA54D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992D99DB2020BD40003BA54D /* Proximity Beacon Detection */,
+				992D99EF2020BD40003BA54D /* Proximity Beacon DetectionTests */,
+				992D99FA2020BD40003BA54D /* Proximity Beacon DetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		992D99DA2020BD40003BA54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D99EA2020BD40003BA54D /* LaunchScreen.storyboard in Resources */,
+				992D99E72020BD40003BA54D /* Assets.xcassets in Resources */,
+				992D99E52020BD40003BA54D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D99EE2020BD40003BA54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D99F92020BD40003BA54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		992D99D82020BD40003BA54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D99E22020BD40003BA54D /* ViewController.swift in Sources */,
+				992D99E02020BD40003BA54D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D99EC2020BD40003BA54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D99F52020BD40003BA54D /* Proximity_Beacon_DetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D99F72020BD40003BA54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D9A002020BD40003BA54D /* Proximity_Beacon_DetectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		992D99F22020BD40003BA54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 992D99DB2020BD40003BA54D /* Proximity Beacon Detection */;
+			targetProxy = 992D99F12020BD40003BA54D /* PBXContainerItemProxy */;
+		};
+		992D99FD2020BD40003BA54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 992D99DB2020BD40003BA54D /* Proximity Beacon Detection */;
+			targetProxy = 992D99FC2020BD40003BA54D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		992D99E32020BD40003BA54D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992D99E42020BD40003BA54D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		992D99E82020BD40003BA54D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992D99E92020BD40003BA54D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		992D9A022020BD40003BA54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		992D9A032020BD40003BA54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		992D9A052020BD40003BA54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FVNMY4HJP;
+				INFOPLIST_FILE = "Proximity Beacon Detection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "enablonlabs.Proximity-Beacon-Detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		992D9A062020BD40003BA54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FVNMY4HJP;
+				INFOPLIST_FILE = "Proximity Beacon Detection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "enablonlabs.Proximity-Beacon-Detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		992D9A082020BD40003BA54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FVNMY4HJP;
+				INFOPLIST_FILE = "Proximity Beacon DetectionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "enablonlabs.Proximity-Beacon-DetectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proximity Beacon Detection.app/Proximity Beacon Detection";
+			};
+			name = Debug;
+		};
+		992D9A092020BD40003BA54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FVNMY4HJP;
+				INFOPLIST_FILE = "Proximity Beacon DetectionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "enablonlabs.Proximity-Beacon-DetectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proximity Beacon Detection.app/Proximity Beacon Detection";
+			};
+			name = Release;
+		};
+		992D9A0B2020BD40003BA54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FVNMY4HJP;
+				INFOPLIST_FILE = "Proximity Beacon DetectionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "enablonlabs.Proximity-Beacon-DetectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proximity Beacon Detection";
+			};
+			name = Debug;
+		};
+		992D9A0C2020BD40003BA54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FVNMY4HJP;
+				INFOPLIST_FILE = "Proximity Beacon DetectionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "enablonlabs.Proximity-Beacon-DetectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proximity Beacon Detection";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992D99D72020BD40003BA54D /* Build configuration list for PBXProject "Proximity Beacon Detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992D9A022020BD40003BA54D /* Debug */,
+				992D9A032020BD40003BA54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992D9A042020BD40003BA54D /* Build configuration list for PBXNativeTarget "Proximity Beacon Detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992D9A052020BD40003BA54D /* Debug */,
+				992D9A062020BD40003BA54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992D9A072020BD40003BA54D /* Build configuration list for PBXNativeTarget "Proximity Beacon DetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992D9A082020BD40003BA54D /* Debug */,
+				992D9A092020BD40003BA54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992D9A0A2020BD40003BA54D /* Build configuration list for PBXNativeTarget "Proximity Beacon DetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992D9A0B2020BD40003BA54D /* Debug */,
+				992D9A0C2020BD40003BA54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992D99D42020BD40003BA54D /* Project object */;
+}
