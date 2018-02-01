@@ -14,6 +14,10 @@
 		992D99EA2020BD40003BA54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992D99E82020BD40003BA54D /* LaunchScreen.storyboard */; };
 		992D99F52020BD40003BA54D /* Proximity_Beacon_DetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D99F42020BD40003BA54D /* Proximity_Beacon_DetectionTests.swift */; };
 		992D9A002020BD40003BA54D /* Proximity_Beacon_DetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D99FF2020BD40003BA54D /* Proximity_Beacon_DetectionUITests.swift */; };
+		99355F1D20238FF4007D1E24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99355F1C20238FF4007D1E24 /* GoogleService-Info.plist */; };
+		99355F1E20238FF4007D1E24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99355F1C20238FF4007D1E24 /* GoogleService-Info.plist */; };
+		99355F1F20238FF4007D1E24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99355F1C20238FF4007D1E24 /* GoogleService-Info.plist */; };
+		996AA9E26DC0727ACF0A5475 /* libPods-Proximity Beacon Detection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36370D806C68290BED33EC5F /* libPods-Proximity Beacon Detection.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C853ADDA6384B68AC329DF3 /* Pods-Proximity Beacon Detection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proximity Beacon Detection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Proximity Beacon Detection/Pods-Proximity Beacon Detection.debug.xcconfig"; sourceTree = "<group>"; };
+		36370D806C68290BED33EC5F /* libPods-Proximity Beacon Detection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Proximity Beacon Detection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FB32FA91757391FC1D4028 /* Pods-Proximity Beacon Detection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proximity Beacon Detection.release.xcconfig"; path = "Pods/Target Support Files/Pods-Proximity Beacon Detection/Pods-Proximity Beacon Detection.release.xcconfig"; sourceTree = "<group>"; };
 		992D99DC2020BD40003BA54D /* Proximity Beacon Detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proximity Beacon Detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		992D99DF2020BD40003BA54D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		992D99E12020BD40003BA54D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		992D99FB2020BD40003BA54D /* Proximity Beacon DetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proximity Beacon DetectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		992D99FF2020BD40003BA54D /* Proximity_Beacon_DetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proximity_Beacon_DetectionUITests.swift; sourceTree = "<group>"; };
 		992D9A012020BD40003BA54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99355F1C20238FF4007D1E24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996AA9E26DC0727ACF0A5475 /* libPods-Proximity Beacon Detection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,8 @@
 				992D99F32020BD40003BA54D /* Proximity Beacon DetectionTests */,
 				992D99FE2020BD40003BA54D /* Proximity Beacon DetectionUITests */,
 				992D99DD2020BD40003BA54D /* Products */,
+				C3327557D6A2741E2B83B931 /* Pods */,
+				CE4EA8CD70805F8EEF2DCD64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +114,7 @@
 				992D99E62020BD40003BA54D /* Assets.xcassets */,
 				992D99E82020BD40003BA54D /* LaunchScreen.storyboard */,
 				992D99EB2020BD40003BA54D /* Info.plist */,
+				99355F1C20238FF4007D1E24 /* GoogleService-Info.plist */,
 			);
 			path = "Proximity Beacon Detection";
 			sourceTree = "<group>";
@@ -125,6 +137,23 @@
 			path = "Proximity Beacon DetectionUITests";
 			sourceTree = "<group>";
 		};
+		C3327557D6A2741E2B83B931 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C853ADDA6384B68AC329DF3 /* Pods-Proximity Beacon Detection.debug.xcconfig */,
+				67FB32FA91757391FC1D4028 /* Pods-Proximity Beacon Detection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE4EA8CD70805F8EEF2DCD64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36370D806C68290BED33EC5F /* libPods-Proximity Beacon Detection.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 992D9A042020BD40003BA54D /* Build configuration list for PBXNativeTarget "Proximity Beacon Detection" */;
 			buildPhases = (
+				9AE0C11AED204B32D48D6FB5 /* [CP] Check Pods Manifest.lock */,
 				992D99D82020BD40003BA54D /* Sources */,
 				992D99D92020BD40003BA54D /* Frameworks */,
 				992D99DA2020BD40003BA54D /* Resources */,
+				DBB97D53FA00DF98B0741790 /* [CP] Embed Pods Frameworks */,
+				CE7BFE9ED2585DF78CEA5747 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +226,11 @@
 					992D99DB2020BD40003BA54D = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					992D99EF2020BD40003BA54D = {
 						CreatedOnToolsVersion = 9.2;
@@ -233,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992D99EA2020BD40003BA54D /* LaunchScreen.storyboard in Resources */,
+				99355F1D20238FF4007D1E24 /* GoogleService-Info.plist in Resources */,
 				992D99E72020BD40003BA54D /* Assets.xcassets in Resources */,
 				992D99E52020BD40003BA54D /* Main.storyboard in Resources */,
 			);
@@ -242,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99355F1E20238FF4007D1E24 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +288,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99355F1F20238FF4007D1E24 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AE0C11AED204B32D48D6FB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Proximity Beacon Detection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7BFE9ED2585DF78CEA5747 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Proximity Beacon Detection/Pods-Proximity Beacon Detection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB97D53FA00DF98B0741790 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Proximity Beacon Detection/Pods-Proximity Beacon Detection-frameworks.sh",
+				"${PODS_ROOT}/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework",
+				"${PODS_ROOT}/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteBluetoothScanning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteProximitySDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Proximity Beacon Detection/Pods-Proximity Beacon Detection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		992D99D82020BD40003BA54D /* Sources */ = {
@@ -424,6 +520,7 @@
 		};
 		992D9A052020BD40003BA54D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C853ADDA6384B68AC329DF3 /* Pods-Proximity Beacon Detection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +536,7 @@
 		};
 		992D9A062020BD40003BA54D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FB32FA91757391FC1D4028 /* Pods-Proximity Beacon Detection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

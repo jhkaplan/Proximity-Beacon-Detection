@@ -7,14 +7,74 @@
 //
 
 import UIKit
+import EstimoteProximitySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var proximityObserver: EPXProximityObserver!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let cloudCredentials = EPXCloudCredentials(appID: "proximity-beacon-detection-gmh",
+                                                   appToken: "b26b46e50635c266cedacb2428f463b8")
+        
+        self.proximityObserver = EPXProximityObserver(
+            credentials: cloudCredentials,
+            errorBlock: { error in
+                print("proximitiy observer error: \(error)")
+        })
+        
+        let zone1 = EPXProximityZone(range: .far,
+                                     attachmentKey: "floor", attachmentValue: "1st")
+        zone1.onEnterAction = { attachment in
+            print("Welcome to the 1st floor")
+        }
+        zone1.onExitAction = {
+            attachment in
+                print("Bye Bye, you are now leaving the 1st floor")
+        }
+        
+        let zone2 = EPXProximityZone(range: .near,
+                                     attachmentKey: "room", attachmentValue: "Office")
+        zone2.onChangeAction = { attachments in
+            print("Current Location: \(attachments.map { $0.payload["room"] })")
+        }
+        
+        let zone3 = EPXProximityZone(range: .near,
+                                     attachmentKey: "room", attachmentValue: "Kitchen")
+        zone3.onChangeAction = { attachments in
+            print("Current Location: \(attachments.map { $0.payload["room"] })")
+        }
+        
+        let zone4 = EPXProximityZone(range: .near,
+                                     attachmentKey: "room", attachmentValue: "Bedroom")
+        zone4.onChangeAction = { attachments in
+            print("Current Location: \(attachments.map { $0.payload["room"] })")
+        }
+        
+        let zone5 = EPXProximityZone(range: .near,
+                                     attachmentKey: "room", attachmentValue: "Bedroom")
+        zone5.onChangeAction = { attachments in
+            print("Current Location: \(attachments.map { $0.payload["room"] })")
+        }
+        
+        let zone6 = EPXProximityZone(range: .near,
+                                     attachmentKey: "room", attachmentValue: "Office-Blueberry")
+        zone6.onChangeAction = { attachments in
+            print("Current Location: \(attachments.map { $0.payload["room"] })")
+        }
+        
+        let zone7 = EPXProximityZone(range: .near,
+                                     attachmentKey: "room", attachmentValue: "Office-Blueberry")
+        zone7.onChangeAction = { attachments in
+            print("Current Location: \(attachments.map { $0.payload["room"] })")
+        }
+        
+        
+        self.proximityObserver.startObserving([zone1,zone2,zone3,zone4,zone5,zone6,zone7])
         // Override point for customization after application launch.
         return true
     }
